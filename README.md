@@ -2,12 +2,12 @@
 
 A modern, responsive personal portfolio website showcasing expertise in Artificial Intelligence, Data Science, Computer Vision, and Generative AI. Built with clean HTML, CSS, and JavaScript, featuring interactive animations and a professional design to highlight projects and skills.
 
-[![Portfolio Screenshot](./img/project12.png)](https://ifanhakm.github.io/portfolio-website/)
+[![Portfolio Screenshot](./img/project12.png)](https://portfolio-ifanhakim.vercel.app/)
 *<p align="center">Click the image to view the live demo</p>*
 
 ## 🚀 Live Demo
 
-The live version of this portfolio can be accessed here: **[https://ifanhakm.github.io/portfolio-website/](https://ifanhakm.github.io/portfolio-website/)**
+The live version of this portfolio can be accessed here: **[https://portfolio-ifanhakim.vercel.app/](https://portfolio-ifanhakim.vercel.app/)**
 
 ## ✨ Features
 
@@ -83,4 +83,5 @@ I'm always open to collaborations, opportunities, and discussions in AI and tech
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
 

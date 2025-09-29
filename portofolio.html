@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi! I'm Ifan!</title>
+    <link rel="stylesheet" href="styling-portofolio.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="particles-js"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="main-container">
+            <div class="nav">
+
+                <nav>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolios">Portfolios</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="./img/resume.pdf" target="_blank">
+                                <button class="btn">Resume</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="burger">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+            </div>
+
+            <section id="hero">
+                <div class="hero-left">
+                    <h3 class="pre-title-hello"> Hello! I'm..</h3>
+                    <h1 class="hero-name">IFAN <span>HAKIM</span></h1>
+                    <p>
+                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>dedicated to transforming complex data into impactful solutions. I thrive on continuous learning and am driven by a passion to help others through technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">Get in Touch</a>
+                        <a href="#portfolios" class="btn-secondary">View Work</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="image-container">
+                        <div class="lanyard"></div>
+                        <img src="./img/me.jpg" alt="Me">
+                        <div class="floating-element"></div>
+                        <div class="floating-element"></div>
+                        <div class="floating-element"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Services -->
+    <section id="services">
+        <div class="services main-container">
+            <h3 class="pre-title">Services</h3>
+            <h1 class="section-title services-title">Specialized In</h1>
+
+            <div class="grid-3">
+                <!-- Services 1 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Data Science & Machine Learning</h4>
+                    <p>I provide end-to-end data science solutions that turn raw data into strategic assets. My expertise covers the entire lifecycle, from exploratory data analysis and feature engineering to building and validating predictive models. I have successfully developed customer segmentation and classification models to enhance marketing strategies and drive business decisions.</p>
+                </div>
+
+                <!-- Services 2 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h4>Computer Vision (CV)</h4>
+                    <p>I specialize in developing advanced computer vision models to interpret and analyze visual data. My flagship project involved building a deep learning model for biomedical image classification that achieved 98% accuracy. I am proficient in image preprocessing, data augmentation, and implementing state-of-the-art CNN architectures like EfficientNetB0 for high-performance results.</p>
+                </div>
+
+                <!-- Services 3 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h4>Generative AI (GenAI)</h4>
+                    <p>I build and implement solutions using the latest advancements in Generative AI and Large Language Models (LLMs). With hands-on experience using frameworks like LangChain and concepts such as Retrieval-Augmented Generation (RAG), I can design and develop intelligent AI, chatbots, and automated content generation systems tailored to specific business needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Portfolio -->
+    <section id="portfolios">
+    <div class="portfolios main-container">
+        <h3 class="pre-title">Experience</h3>
+        <h1 class="section-title">Featured Portfolios</h1>
+        
+        <!-- Filter buttons -->
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ml">Data Science/ML</button>
+            <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            <button class="filter-btn" data-filter="nlp">NLP</button>
+            <button class="filter-btn" data-filter="genai">Generative AI</button>
+            <button class="filter-btn" data-filter="software">Software/Web</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+        </div>
+        
+        <!-- Portfolio grid container -->
+        <div class="grid-3" id="portfolio-container">
+            <!-- Portfolio items will be dynamically inserted here -->
+        </div>
+        
+        <!-- Load more button -->
+        <div class="load-more-container">
+            <button id="load-more" class="btn-primary">Load More Projects</button>
+        </div>
+    </div>
+    </section>    
+    <!-- End of Portfolio -->
+
+    <!-- Education -->
+    <section id="skills">
+        <div class="skills main-container">
+            <h3 class="pre-title">Education History</h3>
+            <h1 class="section-title">Part of My Journey</h1>
+
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <!-- Education 1 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">UNU Yogyakarta</h4>
+                            <p>Informatics - Bachelor's Degree</p>
+                            <h4 class="education-years">2022 - 2026 (Expected)</h4>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        
+                        <div class="education-info">
+                            <h4 class="education-title">2 Ngaglik High School</h4>
+                            <p>Math and Science</p>
+                            <h4 class="education-years">2019 - 2022</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <p>
+                        My journey into Artificial Intelligence began in 2022, driven by a passion for solving complex and real-world problems. This portfolio is a collection of my hands-on projects in Data and AI. My goal is to continue growing as an AI Engineer, leveraging data and intelligent systems to build innovative solutions that create a meaningful and positive impact.
+                    </p>
+                    
+                    <div class="skills-list">
+                        <ul>
+                            <li><i class="fab fa-python"></i> Python</li>
+                            <li><i class="fab fa-js"></i> Javascript</li>
+                            <li><i class="fas fa-table"></i> Pandas & NumPy</li>
+                            <li><i class="fas fa-cogs"></i> Scikit-learn</li>
+                            <li><i class="fas fa-brain"></i> TensorFlow & Keras</li>
+                            <li><i class="fas fa-brain"></i> PyTorch</li>
+                            <li><i class="fas fa-link"></i> LangChain</li>
+                        </ul>
+
+                        <ul>
+                            <li><i class="fas fa-smile-beam"></i> Hugging Face</li>
+                            <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                            <li><i class="fas fa-server"></i> FastAPI</li>                                                           
+                            <li><i class="fab fa-docker"></i> Docker</li>
+                            <li><i class="fas fa-database"></i> PostgreSQL</li>
+                            <li><i class="fas fa-tasks"></i> Project Management</li>
+                            <li><i class="fas fa-chart-line"></i> Business Analysis</li>                                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Education -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <h3 class="pre-title">Contact Me</h3>
+        <h1 class="section-title">Let's Connect!</h1>
+        <div class="contact main-container">
+            <div class="contact-left">
+                <form class="contact-form" action="https://formspree.io/f/mwkdjadz" method="POST">
+                    <div>
+                        <input type="text" placeholder="Name/Corporation" name="name" required>
+                    </div>
+
+                    <div>
+                        <input type="email" placeholder="Email/Etc" name="email" required>
+                    </div>
+
+                    <div>
+                        <textarea name="message" id="message" placeholder="Send Me Message" cols="30" rows="10" required></textarea>
+                    </div>
+
+                    <div>
+                        <button class="btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-right">
+
+                <!-- Contact Item 1 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <a href="https://maps.app.goo.gl/m5oyRAUkRscnwuPDA">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Location</h4>
+                        <p>Sleman, Special Region of Yogyakarta</p>
+                    </div>
+                </div>
+
+                <!-- Contact Item 2 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <a href="https://www.linkedin.com/in/ifanhakim">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>LinkedIn</h4>
+                        <p>Ifan Hakim</p>
+                    </div>
+                </div>
+
+                <!-- Contact Item 3 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <a href="mailto:ifanhakm@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Email</h4>
+                        <p>ifanhakm@gmail.com</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/_ifqnhakm">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ifanhakim">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/ifanhakm">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:ifanhakm@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+        <p>"The number one benefit of information technology is that it empowers people to do what they want to do."  (Bill Gates)</i></p>
+        <p>&#169; 2025 - Ifan Hakim</i></p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="portfolio-script.js"></script>
+</body>
+</html>

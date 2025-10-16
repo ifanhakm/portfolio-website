@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const portfolioData = [
   {
     id: 1,
-    title: "NeuroClassify (Brain Tumor Classification)",
+    title: "NeuroClassify v0 (Brain Tumor Classification)",
     image: "./img/project1.png",
     tags: ["Computer Vision", "TensorFlow", "Python", "Deep Learning"],
     "description": "Developed an end-to-end deep learning model to classify brain tumors from MRI images, achieving an impressive 98% accuracy. This project, part of my independent study at Stechoq Academy, involved data preprocessing, image augmentation, and utilizing the EfficientNetB0 architecture with transfer learning techniques.",
@@ -482,4 +482,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if (form) {
         form.addEventListener("submit", handleSubmit);
     }
+
 });

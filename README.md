@@ -61,7 +61,7 @@ No additional dependencies or build steps are required, as this is a static webs
 
 ```
 portfolio/
-├── index.html          # Main HTML file
+├── index.html               # Main HTML file
 ├── styling-portofolio.css   # Main stylesheet
 ├── responsive.css           # Responsive design styles
 ├── portfolio-script.js      # JavaScript for interactivity

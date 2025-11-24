@@ -482,5 +482,4 @@ document.addEventListener('DOMContentLoaded', function() {
     if (form) {
         form.addEventListener("submit", handleSubmit);
     }
-
 });

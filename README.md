@@ -34,8 +34,7 @@ This project leverages modern web technologies for a lightweight, fast, and main
     -   **Font Awesome:** Provides scalable vector icons for UI elements.
 
 -   **Deployment:**
-    -   **Vercel:** For seamless deployment and hosting.
-    -   **GitHub Pages:** Alternative hosting option for static site deployment.
+    -   **Netlify:** For seamless deployment and hosting.
 
 ## 🛠️ Setup and Local Installation
 

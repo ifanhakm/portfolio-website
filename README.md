@@ -51,8 +51,8 @@ To run this project locally, follow these steps:
     cd portfolio
     ```
 
-3.  **Open the `portofolio.html` file in your browser:**
-    -   Double-click `portofolio.html` to open directly.
+3.  **Open the `index.html` file in your browser:**
+    -   Double-click `index.html` to open directly.
     -   For development, use a live server (e.g., VS Code's Live Server extension) to enable auto-reload on changes.
 
 No additional dependencies or build steps are required, as this is a static website.
@@ -61,7 +61,7 @@ No additional dependencies or build steps are required, as this is a static webs
 
 ```
 portfolio/
-├── portofolio.html          # Main HTML file
+├── index.html          # Main HTML file
 ├── styling-portofolio.css   # Main stylesheet
 ├── responsive.css           # Responsive design styles
 ├── portfolio-script.js      # JavaScript for interactivity

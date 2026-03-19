@@ -241,113 +241,140 @@ document.addEventListener('DOMContentLoaded', function() {
 // Portfolio data - easily expandable
 const portfolioData = [
   {
-    id: 1,
-    title: "NeuroClassify v0 (Brain Tumor Classification)",
-    image: "./img/project1.png",
-    tags: ["Computer Vision", "TensorFlow", "Python", "Deep Learning"],
-    "description": "Developed an end-to-end deep learning model to classify brain tumors from MRI images, achieving an impressive 98% accuracy. This project, part of my independent study at Stechoq Academy, involved data preprocessing, image augmentation, and utilizing the EfficientNetB0 architecture with transfer learning techniques.",
-    category: "cv",
-    link: "https://github.com/ifanhakm/NeuroClassify_modeltraining"
+    id: 15,
+    title: "HVAC Digital Twin 2.0 & Smart Maintenance System (Internship Final Project)",
+    image: "./img/project15.png",
+    tags: ["Digital Twin", "3D Modeling", "Web Development", "IoT", "Node-RED", "AppSheet"],
+    description: "[Private Repository] Developed an advanced Digital Twin ecosystem linking physical industrial assets with their digital replicas to achieve real-time operational visibility. This comprehensive system integrated IoT data flows via Node-RED with CT and AHU simulations, paired with a smart AppSheet Preventive Maintenance application, resulting in a fully paperless workflow, risk-free optimization simulations, and a robust foundation for future predictive maintenance.",
+    category: "software",
+    link: "https://github.com/ifanhakm/hvac-digital-twin-v2"
   },
   {
-    id: 2,
-    title: "Neural Network from Scratch",
-    image: "./img/project2.png",
-    tags: ["Neural Network", "NumPy", "Python", "Scratch"],
-    description: "Developed a functional neural network from the ground up using only Python and NumPy. This project focused on implementing the core mechanics of deep learning, including forward propagation, backpropagation, and gradient descent, without relying on high-level frameworks.",
-    category: "cv",
-    link: "https://github.com/ifanhakm/neuralnetwork_fromscratch"
-  },
-  {
-    id: 3,
-    title: "Marketing Campaign Analysis",
-    image: "./img/project3.png",
-    tags: ["Machine Learning", "Scikit-learn", "Python", "Classification"],
-    description: "Engineered a predictive model to analyze a marketing campaign dataset. This project involved both clustering (K-Means, DBScan) and classification (Random Forest) to predict customer behavior, achieving a final accuracy of 94% after applying PCA and hyperparameter tuning with GridSearchCV.",
+    id: 14,
+    title: "AHU & Evaporator Performance Optimization (Internship Project)",
+    image: "./img/project14.png",
+    tags: ["First Principles", "Machine Learning", "HVAC System", "Optimization"],
+    description: "[Private Repository] Enhanced the air handling performance and heat transfer efficiency of AHU and evaporator systems to ensure precise temperature and humidity control while reducing wasteful cooling loads. This initiative involved evaluating airflow rates, analyzing evaporator coil capacities, and adjusting on-site control instruments, successfully achieving highly stable operational climates, standardized air quality, and optimized energy usage.",
     category: "ml",
-    link: "https://github.com/ifanhakm/marketcampaign_cluster-classify"
+    link: "https://github.com/ifanhakm/ahu-evaporator-optimization"
   },
   {
-    id: 4,
-    title: "Heart Disease Prediction",
-    image: "./img/project4.png",
-    tags: ["Classification", "Scikit-learn", "Python", "Healthcare"],
-    description: "Built a machine learning model to predict the presence of heart disease based on a clinical dataset. This project involved a complete data science workflow, from exploratory data analysis (EDA) and feature engineering to training and evaluating various classification models with Scikit-learn.",
+    id: 13,
+    title: "Cooling Tower & Condenser Performance Optimization (Internship Project)",
+    image: "./img/project13.png",
+    tags: ["First Principles", "Machine Learning", "HVAC System", "Optimization"],
+    description: "[Private Repository] Optimized the thermal efficiency of industrial cooling tower and condenser systems to maximize heat dissipation and reduce overall energy consumption. This project involved on-site thermodynamic analysis, cooling water flow rate adjustments, and operating cycle calibration, ultimately delivering improved heat exchange efficiency, minimized overheating risks, and enhanced long-term asset reliability.",
     category: "ml",
-    link: "https://github.com/ifanhakm/heartdisease_prediction"
+    link: "https://github.com/ifanhakm/ct-condenser-optimization"
   },
   {
-    id: 5,
-    title: "DVD Rental's Customer Segmentation Analysis",
-    image: "./img/project5.png",
-    tags: ["Data Analytics", "Python", "K-Means", "Seaborn"],
-    description: "Performed customer segmentation on a DVD rental dataset to identify distinct user groups. This project focused on Exploratory Data Analysis (EDA) and implementing the K-Means clustering model. The model's performance was validated using the Silhouette Score, successfully identifying four primary customer clusters.",
-    "category": "ml",
-    link: "https://github.com/ifanhakm/dvdrental_analytics"
-  },
-  {
-    id: 6,
-    title: "StyloMate (Hackathon Finalist)",
-    image: "./img/project6.png",
+    id: 12,
+    title: "StyloMate (Hackathon Finalist Project)",
+    image: "./img/project12.png",
     tags: ["Project Management", "Business Model", "UI/UX Design", "Generative AI"],
     description: "Led a team as a Project Manager during the Hackvidia Hackathon by Arkavidia 9.0 ITB, successfully becoming a Top 8 finalist. We designed 'StyloMate,' an AI-based application concept for sustainable fashion, inferencing Generative AI model (OOTDiffusion & VitonHD) for Virtual Try-On and Digital Wardrobe Management, complete with a full business model.",
     category: "genai",
     link: "https://github.com/codename-error/stylomate-diffusion"
   },
   {
-    id: 7,
-    title: "Pricing Strategist at Pristinz Solutions",
-    image: "./img/project7.png",
-    tags: ["Business Analysis", "Market Research", "Strategy"],
-    description: "Developed a comprehensive value-based pricing strategy for an innovative solar window product at Pristinz Solutions. This project involved segmenting the market, analyzing customer needs, and creating a tailored pricing model supported by ROI simulations to enhance product adoption and profitability.",
-    category: "business",
-    link: "https://www.linkedin.com/posts/ifanhakim_personalgrowth-techtobusiness-pricing-activity-7354427957395795968-njrt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7QH34BuGhuW9jfzQaWCdsw4N3HdnOdY64"
+    id: 11,
+    title: "NeuroClassify v0 (Brain Tumor Classification)",
+    image: "./img/project11.png",
+    tags: ["Computer Vision", "TensorFlow", "Python", "Deep Learning"],
+    "description": "Developed an end-to-end deep learning model to classify brain tumors from MRI images, achieving an impressive 98% accuracy. This project, part of my independent study at Stechoq Academy, involved data preprocessing, image augmentation, and utilizing the EfficientNetB0 architecture with transfer learning techniques.",
+    category: "cv",
+    link: "https://github.com/ifanhakm/NeuroClassify_modeltraining"
   },
   {
-    id: 8,
-    title: "Finote (Backend System)",
-    image: "./img/project8.png",
-    tags: ["Backend", "FastAPI", "Python", "API"],
-    description: "Developed the core backend infrastructure for Finote, a personal finance application, using the high-performance FastAPI framework. Engineered RESTful API endpoints to manage all core functionalities, including user authentication, transaction processing, and data management, creating a robust and scalable foundation for the app.",
-    category: "software",
-    link: "https://github.com/ifanhakm/backend_finote"
-  },
-  {
-    id: 9,
-    title: "Sentiment Analysis on Roblox Reviews",
-    image: "./img/project9.png",
+    id: 10,
+    title: "Sentiment Analysis on 'Roblox' Reviews (Playstore)",
+    image: "./img/project10.png",
     tags: ["Sentiment Analysis", "NLP", "Python", "Scikit-learn"],
     description: "Conducted sentiment analysis on Roblox reviews from the Google Play Store to classify user feedback. This project involved text preprocessing and training multiple machine learning models, including Random Forest, Logistic Regression, and SVM, to achieve high accuracy in sentiment prediction.",
     category: "nlp",
     link: "https://github.com/ifanhakm/sentimentanalysis_roblox-playstore"
   },
   {
-    id: 10,
-    title: "Sentiment Analysis on 'Pacu Jalur' Memes",
-    image: "./img/project10.png",
+    id: 9,
+    title: "Sentiment Analysis on 'Pacu Jalur' Memes (X/Twitter)",
+    image: "./img/project9.png",
     tags: ["Sentiment Analysis", "NLP", "Hugging Face", "Data Crawling"],
     description: "Performed sentiment analysis on the 'Pacu Jalur' meme trend on platform X (Twitter). This project involved crawling relevant data and then using a pre-trained Indonesian sentiment analysis model from Hugging Face (w11wo/indonesian-roberta-base-sentiment-classifier) for automated data labeling through model inference, without a training phase.",
     category: "nlp",
     link: "https://github.com/ifanhakm/sentimentlabeling_pacujalur"
   },
   {
-    id: 11,
+    id: 8,
+    title: "Neural Network from Scratch",
+    image: "./img/project8.png",
+    tags: ["Neural Network", "NumPy", "Python", "Scratch"],
+    description: "Developed a functional neural network from the ground up using only Python and NumPy. This project focused on implementing the core mechanics of deep learning, including forward propagation, backpropagation, and gradient descent, without relying on high-level frameworks.",
+    category: "cv",
+    link: "https://github.com/ifanhakm/neuralnetwork_fromscratch"
+  },
+  {
+    id: 7,
+    title: "Marketing Campaign Analysis",
+    image: "./img/project7.png",
+    tags: ["Machine Learning", "Scikit-learn", "Python", "Classification"],
+    description: "Engineered a predictive model to analyze a marketing campaign dataset. This project involved both clustering (K-Means, DBScan) and classification (Random Forest) to predict customer behavior, achieving a final accuracy of 94% after applying PCA and hyperparameter tuning with GridSearchCV.",
+    category: "ml",
+    link: "https://github.com/ifanhakm/marketcampaign_cluster-classify"
+  },
+  {
+    id: 6,
+    title: "Customer of DVD Rental Segmentation Analysis",
+    image: "./img/project6.png",
+    tags: ["Data Analytics", "Python", "K-Means", "Seaborn"],
+    description: "Performed customer segmentation on a DVD rental dataset to identify distinct user groups. This project focused on Exploratory Data Analysis (EDA) and implementing the K-Means clustering model. The model's performance was validated using the Silhouette Score, successfully identifying four primary customer clusters.",
+    "category": "ml",
+    link: "https://github.com/ifanhakm/dvdrental_analytics"
+  },
+  {
+    id: 5,
+    title: "Heart Disease Prediction",
+    image: "./img/project5.png",
+    tags: ["Classification", "Scikit-learn", "Python", "Healthcare"],
+    description: "Built a machine learning model to predict the presence of heart disease based on a clinical dataset. This project involved a complete data science workflow, from exploratory data analysis (EDA) and feature engineering to training and evaluating various classification models with Scikit-learn.",
+    category: "ml",
+    link: "https://github.com/ifanhakm/heartdisease_prediction"
+  },
+  {
+    id: 4,
     title: "Air Quality Dashboard",
-    image: "./img/project11.png",
+    image: "./img/project4.png",
     tags: ["Data Analytics", "Python", "Streamlit", "Visualization"],
     description: "Developed an interactive dashboard to analyze and visualize air quality data from various stations in China. This end-to-end data analysis project involved data wrangling, EDA, and deploying a user-friendly dashboard with Streamlit to communicate insights for potential environmental policy decisions.",
     category: "ml",
     link: "https://github.com/ifanhakm/airquality-dashboard"
   },
   {
-    id: 12,
+    id: 3,
+    title: "Finote (Backend System Only)",
+    image: "./img/project3.png",
+    tags: ["Backend", "FastAPI", "Python", "API"],
+    description: "Developed the core backend infrastructure for Finote, a personal finance application, using the high-performance FastAPI framework. Engineered RESTful API endpoints to manage all core functionalities, including user authentication, transaction processing, and data management, creating a robust and scalable foundation for the app.",
+    category: "software",
+    link: "https://github.com/ifanhakm/backend_finote"
+  },
+  {
+    id: 2,
     title: "Personal Portfolio Website",
-    image: "./img/project12.png",
+    image: "./img/project2.png",
     tags: ["HTML", "CSS", "JavaScript"],
     description: "Developed a fully responsive personal portfolio website from scratch. This project focused on creating a clean user interface, seamless navigation, and dynamic content rendering using vanilla HTML, CSS, and JavaScript to showcase my skills and projects effectively.",
     category: "software",
     link: "s.id/portfolio-ifanhakim"
-  }
+  },
+  {
+    id: 1,
+    title: "Pricing Strategist at Pristinz Solutions",
+    image: "./img/project1.png",
+    tags: ["Business Analysis", "Market Research", "Strategy"],
+    description: "Developed a comprehensive value-based pricing strategy for an innovative solar window product at Pristinz Solutions. This project involved segmenting the market, analyzing customer needs, and creating a tailored pricing model supported by ROI simulations to enhance product adoption and profitability.",
+    category: "business",
+    link: "https://www.linkedin.com/posts/ifanhakim_personalgrowth-techtobusiness-pricing-activity-7354427957395795968-njrt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7QH34BuGhuW9jfzQaWCdsw4N3HdnOdY64"
+  },
 ];
 
 // Portfolio functionality
@@ -357,15 +384,18 @@ function initPortfolio() {
     const loadMoreBtn = document.getElementById('load-more');
     
     let currentFilter = 'all';
-    let visibleProjects = 4; // Number of projects to show initially
+    let visibleProjects = 3; // Number of projects to show initially
+    
+    // Sort portfolio data by ID in descending order (newest first)
+    const sortedPortfolioData = portfolioData.sort((a, b) => b.id - a.id);
     
     // Render portfolio items
     function renderPortfolio(filter = 'all', limit = visibleProjects) {
         portfolioContainer.innerHTML = '';
         
         const filteredProjects = filter === 'all' 
-            ? portfolioData 
-            : portfolioData.filter(project => project.category === filter);
+            ? sortedPortfolioData 
+            : sortedPortfolioData.filter(project => project.category === filter);
         
         const projectsToShow = filteredProjects.slice(0, limit);
         
@@ -416,7 +446,7 @@ function initPortfolio() {
             button.classList.add('active');
             
             currentFilter = button.getAttribute('data-filter');
-            visibleProjects = 4; // Reset to initial limit when filter changes
+            visibleProjects = 3; // Reset to initial limit when filter changes
             renderPortfolio(currentFilter, visibleProjects);
         });
     });
@@ -424,7 +454,7 @@ function initPortfolio() {
     // Load more functionality
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', () => {
-            visibleProjects += 4; // Load  more projects
+            visibleProjects += 3; // Load 3 more projects
             renderPortfolio(currentFilter, visibleProjects);
         });
     }

@@ -1004,6 +1004,43 @@ footer p {
     padding: 1rem 2rem;
 }
 
+/* Portfolio Grid Layout - 3 projects per row */
+#portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* Responsive adjustments for portfolio grid */
+@media screen and (max-width: 1000px) {
+    #portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .portfolio-filters {
+        margin-bottom: 2rem;
+    }
+    
+    .load-more-container {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
 /* Media Queries */
 @media screen and (max-width: 1000px) {
     p {

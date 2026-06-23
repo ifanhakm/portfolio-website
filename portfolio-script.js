@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cursorSpan = document.querySelector(".cursor");
 
     if (typedTextSpan && cursorSpan) {
-        const textArray = ["AI/ML Engineer", "Data Scientist", "Computer Vision Engineer", "Gen AI Engineer"];
+        const textArray = ["AI/ML Engineer", "Data Scientist", "Computer Vision Engineer", "Gen AI Engineer", "Digitalization Enthusiast"];
         const typingDelay = 200;
         const erasingDelay = 100;
         const newTextDelay = 2000;
@@ -240,6 +240,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Portfolio data - easily expandable
 const portfolioData = [
+   {
+    id: 18,
+    title: "SugarCoat.ai",
+    image: "./img/project18.png",
+    tags: ["Machine Learning", "Binary Classification", "Capstone Project", "Deep Learning", "Tensorflow"],
+    description: "Architected an advanced preventative health ecosystem blending predictive Machine Learning with a dynamic Generative AI persona to catalyze behavioral change against diabetes risks among Gen-Z. This comprehensive system integrated a Multiclass Deep Cross Network (DCN) built via TensorFlow Functional API and paired with a hyper-personalized LLM intervention engine, resulting in a low-friction progressive profiling workflow, data-driven psychological catalysts, and a robust, stateless .keras backend for scalable API inference.",
+    category: "ml",
+    link: "https://github.com/ifanhakm/modeling_sugarcoat.ai"
+   },
+   {
+    id: 17,
+    title: "Multivariate Multi-Horizon Time Series Forecasting - Crypto Coin",
+    image: "./img/project17.png",
+    tags: ["Deep Learning", "Time Series", "Crypto Coin", "Time Series Forecasting", "Multi Head Attention"],
+    description: "Architected an advanced Multivariate Multi-Horizon Time Series forecasting model to predict 24-hour cryptocurrency price trajectories with high precision. This comprehensive system integrated dynamic rolling statistics and lag features with a custom-built Sequence-to-Sequence (Seq2Seq) LSTM architecture, paired with handcrafted Multi-Head Attention mechanisms and custom training loops, resulting in superior tracking of volatile market trends, significant outperformance of standard baseline models, and a robust algorithmic foundation for complex financial predictions.",
+    category: "ml",
+    link: "https://github.com/ifanhakm/time_series_forecasting_crypto_coin"
+   },
+   {
+    id: 16,
+    title: "Roblox's Sentiment Analysis with Deep Learning",
+    image: "./img/project16.png",
+    tags: ["NLP", "Sentiment Analysis", "Roblox", "Tensorflow", "Deep Learning", "Bi-LSTM", "Play Store"],    
+    description: "Engineered a sophisticated Natural Language Processing pipeline utilizing Deep Learning to accurately classify player sentiments from raw Roblox user reviews. This comprehensive system integrated automated, objective data labeling via the VADER Lexicon to eliminate inherent star-rating biases, paired with highly optimized Bi-LSTM architectures featuring dynamic learning rate reduction and spatial dropout, resulting in an impressive 85.98% testing accuracy, robust overfitting mitigation, and a reliable automated foundation for extracting actionable player experience insights.",
+    category: "nlp",
+    link: "https://github.com/ifanhakm/sentimentanalysis-roblox-playstore-deeplearning"
+  },
   {
     id: 15,
     title: "HVAC Digital Twin 2.0 & Smart Maintenance System (Internship Final Project)",
@@ -287,16 +314,16 @@ const portfolioData = [
   },
   {
     id: 10,
-    title: "Sentiment Analysis on 'Roblox' Reviews (Playstore)",
+    title: "Roblox's Sentiment Analysis with Machine Learning",
     image: "./img/project10.png",
-    tags: ["Sentiment Analysis", "NLP", "Python", "Scikit-learn"],
+    tags: ["NLP", "Sentiment Analysis", "Roblox", "Scikit-learn", "Machine Learning", "Play Store"],
     description: "Conducted sentiment analysis on Roblox reviews from the Google Play Store to classify user feedback. This project involved text preprocessing and training multiple machine learning models, including Random Forest, Logistic Regression, and SVM, to achieve high accuracy in sentiment prediction.",
     category: "nlp",
     link: "https://github.com/ifanhakm/sentimentanalysis_roblox-playstore"
   },
   {
     id: 9,
-    title: "Sentiment Analysis on 'Pacu Jalur' Memes (X/Twitter)",
+    title: "Sentiment Analysis on 'Pacu Jalur' Memes (from X/Twitter)",
     image: "./img/project9.png",
     tags: ["Sentiment Analysis", "NLP", "Hugging Face", "Data Crawling"],
     description: "Performed sentiment analysis on the 'Pacu Jalur' meme trend on platform X (Twitter). This project involved crawling relevant data and then using a pre-trained Indonesian sentiment analysis model from Hugging Face (w11wo/indonesian-roberta-base-sentiment-classifier) for automated data labeling through model inference, without a training phase.",
@@ -305,7 +332,7 @@ const portfolioData = [
   },
   {
     id: 8,
-    title: "Neural Network from Scratch",
+    title: "Basic Neural Network from Scratch",
     image: "./img/project8.png",
     tags: ["Neural Network", "NumPy", "Python", "Scratch"],
     description: "Developed a functional neural network from the ground up using only Python and NumPy. This project focused on implementing the core mechanics of deep learning, including forward propagation, backpropagation, and gradient descent, without relying on high-level frameworks.",
@@ -350,7 +377,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    title: "Finote (Backend System Only)",
+    title: "Finote (Backend System)",
     image: "./img/project3.png",
     tags: ["Backend", "FastAPI", "Python", "API"],
     description: "Developed the core backend infrastructure for Finote, a personal finance application, using the high-performance FastAPI framework. Engineered RESTful API endpoints to manage all core functionalities, including user authentication, transaction processing, and data management, creating a robust and scalable foundation for the app.",

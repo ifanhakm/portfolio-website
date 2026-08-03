@@ -2,12 +2,12 @@
 
 A modern, responsive personal portfolio website showcasing expertise in Artificial Intelligence, Data Science, Computer Vision, and Generative AI. Built with clean HTML, CSS, and JavaScript, featuring interactive animations and a professional design to highlight projects and skills.
 
-[![Portfolio Screenshot](./img/project2.png)](https://portfolio-ifanhakim.netlify.app/)
-*<p align="center">Click the image to view the live demo</p>*
+[![Portfolio Screenshot](./img/project2.png)](https://portfolio-ifanhakim.my.id/)
+*<p align="center">Click the image to view the live website</p>*
 
-## 🚀 Live Demo
+## 🚀 Live Website
 
-The live version of this portfolio can be accessed here: **[https://portfolio-ifanhakim.netlify.app/](https://portfolio-ifanhakim.netlify.app/)**
+The live version of this portfolio can be accessed here: **[https://portfolio-ifanhakim.my.id/](https://portfolio-ifanhakim.my.id/)**
 
 ## ✨ Features
 
@@ -77,7 +77,7 @@ I'm always open to collaborations, opportunities, and discussions in AI and tech
 -   **LinkedIn:** [Ifan Hakim](https://www.linkedin.com/in/ifanhakim)
 -   **Email:** [ifanhakm@gmail.com](mailto:ifanhakm@gmail.com)
 -   **GitHub:** [ifanhakm](https://github.com/ifanhakm)
--   **Instagram:** [@_ifqnhakm](https://www.instagram.com/_ifqnhakm)
+-   **Instagram:** [@_ifqnhakm](https://www.instagram.com/_ifanhakm)
 
 ## 📄 License
 

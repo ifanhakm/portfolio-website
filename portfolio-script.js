@@ -240,11 +240,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Portfolio data - easily expandable
 const portfolioData = [
+    {
+    id: 19,
+    title: "Trash Category Classification with Deep Learning",
+    image: "./img/project19.jpg",
+    tags: ["Deep Learning", "Computer Vision", "Image Classification", "Multi Class", "Tensorflow"],
+    description: "Engineered a sophisticated Computer Vision pipeline utilizing Deep Learning to accurately classify complex image datasets into specific environmental categories. This comprehensive system integrated a triple-model voting ensemble, combining EfficientNetV2B0, ResNet50V2, and ConvNeXt-Tiny with custom class-specific weights to eliminate edge-case ambiguities, paired with highly optimized Weighted Test-Time Augmentation (TTA) and rigorous VRAM memory management protocols, resulting in an impressive 96.1% testing accuracy, robust mitigation of hardware constraints, and a reliable automated foundation for precise waste categorization.",
+    category: "cv",
+    link: "https://github.com/ifanhakm/trash_classification"
+   },
    {
     id: 18,
     title: "SugarCoat.ai",
     image: "./img/project18.png",
-    tags: ["Machine Learning", "Binary Classification", "Capstone Project", "Deep Learning", "Tensorflow"],
+    tags: ["LLM Integration", "Binary Classification", "Capstone Project", "Deep Learning", "Tensorflow"],
     description: "Architected an advanced preventative health ecosystem blending predictive Machine Learning with a dynamic Generative AI persona to catalyze behavioral change against diabetes risks among Gen-Z. This comprehensive system integrated a Multiclass Deep Cross Network (DCN) built via TensorFlow Functional API and paired with a hyper-personalized LLM intervention engine, resulting in a low-friction progressive profiling workflow, data-driven psychological catalysts, and a robust, stateless .keras backend for scalable API inference.",
     category: "ml",
     link: "https://github.com/ifanhakm/modeling_sugarcoat.ai"

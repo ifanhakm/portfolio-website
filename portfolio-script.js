@@ -335,7 +335,7 @@ const portfolioData = [
     title: "Sentiment Analysis on 'Pacu Jalur' Memes (from X/Twitter)",
     image: "./img/project9.png",
     tags: ["Sentiment Analysis", "NLP", "Hugging Face", "Data Crawling"],
-    description: "Performed sentiment analysis on the 'Pacu Jalur' meme trend on platform X (Twitter). This project involved crawling relevant data and then using a pre-trained Indonesian sentiment analysis model from Hugging Face (w11wo/indonesian-roberta-base-sentiment-classifier) for automated data labeling through model inference, without a training phase.",
+    description: "Performed sentiment analysis on the 'Pacu Jalur' meme trend on platform X (Twitter). This project involved crawling relevant data and then using a pre-trained Indonesian sentiment analysis model (IndoBERT) from Hugging Face (w11wo/indonesian-roberta-base-sentiment-classifier) for automated data labeling through model inference, without a training phase.",
     category: "nlp",
     link: "https://github.com/ifanhakm/sentimentlabeling_pacujalur"
   },

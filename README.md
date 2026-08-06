@@ -77,7 +77,7 @@ I'm always open to collaborations, opportunities, and discussions in AI and tech
 -   **LinkedIn:** [Ifan Hakim](https://www.linkedin.com/in/ifanhakim)
 -   **Email:** [ifanhakm@gmail.com](mailto:ifanhakm@gmail.com)
 -   **GitHub:** [ifanhakm](https://github.com/ifanhakm)
--   **Instagram:** [@_ifqnhakm](https://www.instagram.com/_ifanhakm)
+-   **Instagram:** [@_ifanhakm](https://www.instagram.com/_ifanhakm)
 
 ## 📄 License
 

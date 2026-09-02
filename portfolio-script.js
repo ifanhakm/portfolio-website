@@ -241,6 +241,24 @@ document.addEventListener('DOMContentLoaded', function() {
 // Portfolio data - easily expandable
 const portfolioData = [
     {
+    id: 21,
+    title: " Website of MTSN 1 Aceh Barat Daya",
+    image: "./img/project21.png",
+    tags: ["Next.js", "React", "Node.js", "Payload CMS v3", "PostgreSQL - Supabase"],
+    description: "A high-performance, mobile-first digital transformation project for a premier regional school with over 500 active students. Built using full-stack Next.js, Payload CMS v3, and Supabase PostgreSQL, this platform integrates a headless CMS, an automated administrative document portal (PTSP), and modern serverless APIs to deliver maximum speed, security, and zero-cost database scalability.",
+    category: "software",
+    link: "https://github.com/ifanhakm/website_mtsn1acehbaratdaya"
+   },
+    {
+    id: 20,
+    title: "Indonesian Academic RAG Chatbot",
+    image: "./img/project20.jpg",
+    tags: ["RAG", "LLM", "Open-Router", "Chroma DB", "Semantic Search"],
+    description: "A retrieval-augmented generation (RAG) chatbot designed to provide accurate academic administration information based on UNU Yogyakarta’s 2026 Final Project and Graduation Judicium Guide. The system uses ChromaDB for semantic document retrieval and OpenRouter AI models for question enhancement, embeddings, and response generation. It is designed for Indonesian-language interactions and prioritizes context-grounded answers to reduce hallucinations.",
+    category: "genai",
+    link: "https://github.com/ifanhakm/production-RAG"
+   },
+    {
     id: 19,
     title: "Trash Category Classification with Deep Learning",
     image: "./img/project19.jpg",
@@ -255,7 +273,7 @@ const portfolioData = [
     image: "./img/project18.png",
     tags: ["LLM Integration", "Binary Classification", "Capstone Project", "Deep Learning", "Tensorflow"],
     description: "Architected an advanced preventative health ecosystem blending predictive Machine Learning with a dynamic Generative AI persona to catalyze behavioral change against diabetes risks among Gen-Z. This comprehensive system integrated a Multiclass Deep Cross Network (DCN) built via TensorFlow Functional API and paired with a hyper-personalized LLM intervention engine, resulting in a low-friction progressive profiling workflow, data-driven psychological catalysts, and a robust, stateless .keras backend for scalable API inference.",
-    category: "ml",
+    category: ["ml", "genai"],
     link: "https://github.com/ifanhakm/modeling_sugarcoat.ai"
    },
    {
@@ -385,7 +403,7 @@ const portfolioData = [
     link: "https://github.com/ifanhakm/airquality-dashboard"
   },
   {
-    id: 3,
+    id: 2,
     title: "Finote (Backend System)",
     image: "./img/project3.png",
     tags: ["Backend", "FastAPI", "Python", "API"],
@@ -394,7 +412,7 @@ const portfolioData = [
     link: "https://github.com/ifanhakm/backend_finote"
   },
   {
-    id: 2,
+    id: 3,
     title: "Personal Portfolio Website",
     image: "./img/project2.png",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -424,6 +442,16 @@ function initPortfolio() {
     
     // Sort portfolio data by ID in descending order (newest first)
     const sortedPortfolioData = portfolioData.sort((a, b) => b.id - a.id);
+
+    function matchesFilter(project, filter) {
+        if (filter === 'all') return true;
+
+        const categories = Array.isArray(project.category)
+            ? project.category
+            : [project.category];
+
+        return categories.includes(filter);
+    }
     
     // Render portfolio items
     function renderPortfolio(filter = 'all', limit = visibleProjects) {
@@ -431,14 +459,17 @@ function initPortfolio() {
         
         const filteredProjects = filter === 'all' 
             ? sortedPortfolioData 
-            : sortedPortfolioData.filter(project => project.category === filter);
+            : sortedPortfolioData.filter(project => matchesFilter(project, filter));
         
         const projectsToShow = filteredProjects.slice(0, limit);
         
         projectsToShow.forEach(project => {
             const portfolioItem = document.createElement('div');
             portfolioItem.classList.add('portfolio');
-            portfolioItem.setAttribute('data-category', project.category);
+            portfolioItem.setAttribute(
+                'data-category',
+                Array.isArray(project.category) ? project.category.join(' ') : project.category
+            );
             
             portfolioItem.innerHTML = `
                 <div class="portfolio-cover">
